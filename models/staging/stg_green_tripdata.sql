@@ -24,6 +24,7 @@ ehail_fee,
 improvement_surcharge,
 total_amount,
 payment_type,
+{{get_payment_type_description(payment_type)}} as payment_type_description,
 trip_type,
 congestion_surcharge
     from source
