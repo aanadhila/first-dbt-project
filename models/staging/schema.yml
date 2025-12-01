@@ -105,7 +105,7 @@ models:
         description: ""
         tests:
           - accepted_values:
-              values: "{{var('payment_type_value')}}"
+              values: "{{var('payment_type_values')}}"
               severity: warn
               quote: false
 
@@ -213,7 +213,7 @@ models:
         description: ""
         tests:
           - accepted_values:
-              values: "{{var('payment_type_value')}}"
+              values: "{{var('payment_type_values')}}"
               severity: warn
               quote: false
 
