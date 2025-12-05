@@ -2,7 +2,8 @@ version: 2
 
 sources:
   - name: staging
-    database: "{{ env_var('DBT_DATABASE', 'zoomcamp') }}"
+    database: "zoomcampproject-476102"
+    schema: "zoomcamp"
       # loaded_at_field: record_loaded_at
     tables:
       - name: green_tripdata
